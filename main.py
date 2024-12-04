@@ -7,8 +7,6 @@ st.set_page_config(
     page_icon="🚀"  # Use an emoji or path to an image for the icon
 )
 
-st.title("Your App Title")
-
 def clean_data(df, month, year, fiscal_year):
     
     # ลบแถวสุดท้าย(ผลรวม)
