@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import io
 
+st.set_page_config(
+    page_title="ทำความสะอาดข้อมูลรายจ่าย",  # Change this to your desired title
+    page_icon="🚀"  # Use an emoji or path to an image for the icon
+)
+
+st.title("Your App Title")
 
 def clean_data(df, month, year, fiscal_year):
     
