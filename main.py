@@ -145,7 +145,7 @@ def main():
         'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'
     }
     # User inputs for month and year
-    selected_month_abbr = st.selectbox("เลือกเดือน:", list(month_options.keys()))
+    selected_month_abbr = st.selectbox("เลือกเดือน:", list(month_options))
     year = st.number_input("กรอกปี (พ.ศ.):", min_value=0, max_value=10000000000, step=1)
     fiscal_year = st.number_input("กรอกปีงบประมาณ (พ.ศ.):", min_value=0, max_value=10000000000, step=1)
     # Convert month abbreviation to numerical value
